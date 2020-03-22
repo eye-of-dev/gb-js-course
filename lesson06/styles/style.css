@@ -1,0 +1,32 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.products {
+	padding: 30px 0;
+}
+
+.product {
+	float: left;
+	margin: 20px;
+	width: 300px;
+}
+
+.product .desc {
+	display: none;
+}
+
+.product img {
+	width: 300px;
+	height: 300px;
+}
+
+.price-block .price {
+	float: left;
+}
+
+.price-block .buy-button {
+	float: right;
+}
