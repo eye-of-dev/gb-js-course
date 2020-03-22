@@ -1,32 +1,12 @@
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
 }
 
-.products {
-	padding: 30px 0;
+table td {
+	padding: 10px;
 }
 
-.product {
-	float: left;
-	margin: 20px;
-	width: 300px;
-}
-
-.product .desc {
-	display: none;
-}
-
-.product img {
-	width: 300px;
-	height: 300px;
-}
-
-.price-block .price {
-	float: left;
-}
-
-.price-block .buy-button {
-	float: right;
+table td.question span {
+	font-weight: bold;
 }
